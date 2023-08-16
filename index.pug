@@ -1,0 +1,88 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    style
+      include style.css
+    title Document
+  body 
+    table(class="signature" cellspacing="0" border="0" cellpadding="0")
+      tbody 
+        tr(style="height: 100px;")
+          td(class="avatar" vertical-align="top" width="100" colspan="2")
+            img(src=`${api}/images/humans/png/${photo}`, width="100" height="100")
+        tr(style="height:10px;")
+          td(colspan="2")
+        tr(class="person")
+          td(class="contact" colspan="2")
+            table(cellspacing="0" border="0" cellpadding="0")
+              tr
+                td
+                  div
+                    table(cellspacing="0" border="0" cellpadding="0")
+                      tbody 
+                        if (name && surname) 
+                          tr
+                            td.name
+                              p(class="red h3") #{name} #{surname}
+                          tr(style="height:5px;")
+                            td
+                        if position
+                          tr
+                            td.position
+                              p(class="gray300 h4") #{position}
+                          tr(style="height:5px")
+                            td
+                        tr
+                          td
+                            div
+                              table(cellspacing="0" border="0" cellpadding="0")
+                                tr
+                                  if phone
+                                    td
+                                      p
+                                        a(href=`tel: ${phone.split(' ').join('')}`, class="gray400") #{phone} 
+                                  td(width="20" style="width:20px" align="center")
+                                    p.red |
+                                  td
+                                    p
+                                      a(href=`mailto: ${email}`, class="gray400") #{email}
+                                  td(width="20" style="width:20px" align="center")
+                                    p.red |
+                                  td
+                                    p
+                                      a(href=`https://${web}`, class="red bold") #{web} 
+              tr
+                td
+                  p
+                    table(class="socials" cellspacing="0" border="0" cellpadding="0")
+                      tbody  
+                        tr(style="height:10px")
+                          td(colspan="3")
+                        tr
+                          td
+                            p
+                              a(href=linkedin) 
+                                img(src=`${api}/images/lin.png`, height="15" width="15" class="social-icon lin")
+                          td
+                            p
+                              a(href=instagram) 
+                                img(src=`${api}/images/ig.png`, height="15" width="20" class="social-icon ig")
+        tr(style="height:20px")
+          td(colspan="2")
+        tr
+          td(colspan="2" style="border-top: 1px solid #E7E7E8;" )
+            p 
+        tr(style="height:20px")
+          td(colspan="2")
+        tr(style="height:30px")
+          td
+            table
+              tr
+                td(class="logo")
+                  p
+                    a(href=`https://${web}`) 
+                      img(src=`${api}/images/vitruvio.png`, width="120" height="25")
+                td(width="20" style="width:20px")

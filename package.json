@@ -1,0 +1,32 @@
+{
+  "name": "email_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pug -w -O data_source.json index.pug",
+    "build": "pug -O data.json index.pug && node inlineCss.js",
+    "generate": "nodemon generateSignatures.js nodemon -e js,pug,css",
+    "parse": "node generateJsonFromCsv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominik2323/EMAIL_TEMPLATE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominik2323/EMAIL_TEMPLATE/issues"
+  },
+  "homepage": "https://github.com/dominik2323/EMAIL_TEMPLATE#readme",
+  "dependencies": {
+    "inline-css": "^4.0.1",
+    "jsdom": "^20.0.0",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6",
+    "slugify": "^1.6.5",
+    "slugify-files": "^2.1.0"
+  }
+}

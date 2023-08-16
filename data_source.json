@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Roman",
+    "surname": "Kunčar",
+    "position": "CEO",
+    "phoneCode": "420",
+    "phone": "731 580 367",
+    "email": "hello@vitruvio.cz",
+    "web": "www.vitruvio.cz",
+    "photoFileName": "kuncar.png",
+    "linkedin": "https://www.linkedin.com/company/meetvitruvio/",
+    "instagram": "https://www.instagram.com/meetvitruvio/"
+  },
+  {
+    "name": "Šimon",
+    "surname": "Bellovič",
+    "position": "CEO",
+    "phoneCode": "420",
+    "phone": "731 822 021",
+    "email": "hello@vitruvio.cz",
+    "web": "www.vitruvio.cz",
+    "photoFileName": "bellovic.png",
+    "linkedin": "https://www.linkedin.com/company/meetvitruvio/",
+    "instagram": "https://www.instagram.com/meetvitruvio/"
+  }
+]

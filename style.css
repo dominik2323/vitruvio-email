@@ -1,0 +1,103 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+table {
+  border-spacing: 0;
+  table-layout: fixed;
+}
+a,
+p,
+div,
+span {
+  text-decoration: none;
+  color: #515355;
+  font-size: 12px;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+}
+.avatar {
+  vertical-align: top;
+}
+.divider {
+  width: 100%;
+}
+.avatar img {
+  width: 100px;
+  object-fit: cover;
+  height: 100px;
+}
+.underline {
+  text-decoration: underline;
+}
+.red {
+  color: #444dfe;
+}
+.gray300 {
+  color: #7d7e7f;
+}
+.gray400 {
+  color: #515355;
+}
+.bold {
+  font-weight: bold;
+}
+.contact .h4 {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 12px;
+  line-height: 1em;
+}
+.name .h3 {
+  font-weight: bold;
+}
+.contact .h3 {
+  font-size: 16px;
+  line-height: 1em;
+}
+.social-icon {
+  object-fit: contain;
+  display: block;
+}
+.social-icon.lin {
+  width: 15px;
+  height: 15px;
+}
+.social-icon.ig {
+  width: 20px;
+  height: 15px;
+}
+.person {
+  border-bottom: 1px solid #7d7e7f;
+}
+hr {
+  background-color: #e7e7e8;
+  height: 1px;
+  border: none;
+}
+.eval {
+  text-align: right;
+}
+.logo img {
+  width: 120px;
+  height: 25px;
+}
+.space {
+  display: block;
+}
+.l {
+  width: 20px;
+  height: 20px;
+}
+.s {
+  width: 10px;
+  height: 10px;
+}
+.xs {
+  width: 5px;
+  height: 5px;
+}
+.eval div * {
+  display: block;
+}
