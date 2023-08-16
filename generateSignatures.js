@@ -5,8 +5,7 @@ const data = require("./data_source.json");
 const slugify = require("slugify");
 
 const everythingInsideBody = /<body[^>]*>(.*?)<\/body>/;
-const api =
-  "https://cdn.jsdelivr.net/gh/dominik2323/labona_email_signature@latest";
+const api = "https://cdn.jsdelivr.net/gh/dominik2323/vitruvio-email@latest";
 
 const compiledFunction = pug.compileFile("index.pug");
 
