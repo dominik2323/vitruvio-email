@@ -61,12 +61,12 @@ span {
   display: block;
 }
 .social-icon.lin {
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
 }
 .social-icon.ig {
-  width: 20px;
-  height: 15px;
+  width: 19px;
+  height: 19px;
 }
 .person {
   border-bottom: 1px solid #7d7e7f;
@@ -80,8 +80,8 @@ hr {
   text-align: right;
 }
 .logo img {
-  width: 120px;
-  height: 25px;
+  width: 93px;
+  height: 22px;
 }
 .space {
   display: block;
