@@ -57,7 +57,12 @@ data.forEach((person, i) => {
 
 const prependMsg = (html) => `
   <h1>Jen pro kontrolu. Nepoužívat pro vytváření podpisů</h1>
-  ${html}
+  <div>
+    ${html}
+  </div>
+  <div style="background-color: black">
+    ${html}
+  </div>
 `;
 
 // render all signatures
